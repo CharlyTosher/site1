@@ -1,0 +1,60 @@
+/* базовые Оптимальные настройки для вёрстки сайта*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none; /*уберем у ссылок родной стиль*/
+    color: inherit; /*наследует цвет у родителя*/
+}
+
+ul{
+    list-style: none; /*убрали точки у марк списка*/
+}
+
+.container{
+    max-width: 1240px; /*макс ширина согласно макету фигмы*/
+    margin: 0 auto; /* по центру*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body{
+
+}
+
+.header__wrapper{
+    display: flex; /*всегда будет подстраиваться под размеры*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    min-height: 140px;
+   
+}
+
+.logo{
+    margin-bottom: 35px;
+}
+
+.menu__list{
+    display: flex;
+    align-items: center; /*выравнивание по линии по центру*/
+    gap: 0 65px; /*отступы друг от друга согласно макету*/
+}
+
+.user-actions{
+    display: flex;
+    align-items: center; /*выравнивание по линии по центру*/
+    gap: 0 20px; /*отступы друг от друга согласно макету*/
+}
+
+.user-actions__item-search{
+    margin-left: 80px; /*отдельный отступ для поиска по макету*/
+}
