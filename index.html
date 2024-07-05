@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header class="header"> <!--наш верх страницы-->
+    <div class="container"> <!-- контейнер где будут лежать отдельные блоки: лого, шапка и т.д-->
+      <div class="header__wrapper"> <!--внутренняя обертка-->
+          <a href="#" class="logo"> <!-- логотип-->
+            <img src="images/logo.svg" alt="TealuxE"> <!-- путь к лого-->
+          </a>
+          <nav class="menu"> <!-- навигация по сайту-->
+            <ul class="menu__list"> <!-- класс для всего нумерованного списка ul-->
+              <li class="menu__item"> <!-- класс для всех li-->
+                <a href="#" class="menu__link">Black</a> <!-- класс для ссылок в li-->
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Green</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">White</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Oolong</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Pu-erh</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="user-actions"> <!-- блок для трех иконок:корзина,юзер, поиск-->
+
+            <li class="user-actions_item"> <!-- корзина-->
+              <a href="#" class="user-actions__link">
+                <img src="images/cart.svg" alt="">
+              </a> 
+            </li>
+            <li class="user-actions_item"> <!-- юзер-->
+              <a href="#" class="user-actions__link">
+                <img src="images/user.svg" alt="">
+              </a>
+            </li>
+            <li class="user-actions_item"> <!-- поиск-->
+              <a href="#" class="user-actions__link">
+                <img src="images/search.svg" alt="">
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </header>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
