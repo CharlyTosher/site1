@@ -28,6 +28,11 @@ ul{
 
 body{
     color: #151618;
+    font-family: "Open Sans", sans-serif;
+    /*font-family: "Cormorant", serif;*/
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
 }
 
 .header__wrapper{
@@ -47,6 +52,9 @@ body{
     display: flex;
     align-items: center; /*выравнивание по линии по центру*/
     gap: 0 65px; /*отступы друг от друга согласно макету*/
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 85px;
 }
 
 .user-actions{
@@ -57,4 +65,36 @@ body{
 
 .user-actions__item-search{
     margin-left: 80px; /*отдельный отступ для поиска по макету*/
+}
+
+.top {
+    background-image: url(../images/top-bg.jpg); /*добавили нашу фоновую картинку*/
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.top__inner {
+    min-height: 500px;
+    color: #FFFFFF;
+    font-family: "Cormorant", serif;
+    font-weight: 400;
+    display: flex; /*превратили наш блок во флекс контейнер*/
+    flex-direction: column; /*элементы идут столбиком сверху-вниз*/
+    justify-content: flex-end; /*прижали флекс элементы к краю, где заканчивается основная ось. Из-за flex-direction: coloumn у нас наша основная ось вертикальная и идя сверхи вниз она заканчивается снизу. Значит, мы прижали флекс элемент к низу флекс-контейнера. Если бы у нас было не coloum (колонка) а просто в ряд друг за другом шли элементы, то прижалось бы к правому краю, потому что основная ось по горизонтали идет слева направо, а не сверхи вниз*/
+}
+
+.top__title {
+    font-size: 60px;
+    margin-bottom: 20px;
+    max-width: 790px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.top__text {
+    font-size: 24px;
+    margin-bottom: 48px;
+    max-width: 560px;
+    line-height: normal;
 }
