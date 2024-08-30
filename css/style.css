@@ -98,3 +98,13 @@ body{
     max-width: 560px;
     line-height: normal;
 }
+
+.blockquote__text {
+    text-align: center;
+    font-family: "Cormorant", serif;
+    font-style: italic;
+    line-height: normal;
+    font-size: 40px;
+    max-width: 704px;
+    margin: 150px auto;
+}
