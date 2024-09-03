@@ -119,6 +119,12 @@ body{
     .menu__list {
         margin-left: 60px;
     }
+    .logo {
+        margin-bottom: 0;
+    }
+    .header_wrapper {
+        min-height: auto;
+    }
 }
 @media (max-width:768px) { /*делаем ширину для разных экранов*/
 
